@@ -1,0 +1,24 @@
+# Data (too heavy for GitHub)
+data/raw/
+data/processed/
+
+# Submissions (prediction CSVs)
+submissions/
+
+# Models
+models/*.pkl
+models/*.cbm
+models/*.lgb
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
